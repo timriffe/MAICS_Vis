@@ -27,10 +27,10 @@ mi_variable <- 4
 # se puede installar asi (quitar el # para ejecutar,
 # no querremos ejecturar la installacion cada vez que
 # corremos el codigo!!):
-# install.packages("tidyverse")
-# install.packages("gapminder")
-# install.packages("colorspace")
-# install.packages("ggridges")
+install.packages("tidyverse")
+install.packages("gapminder")
+install.packages("colorspace")
+install.packages("ggridges")
 
 # para usar los contenidos de un paquete hay que cargarlo asi:
 library(tidyverse)
@@ -179,7 +179,7 @@ mi_grafico =
 ggsave(mi_grafico, 
        filename = "gapminder_continentes.pdf",
        height = 8, # unidades son pulgadas, pero nos da igual porque 
-       width = 10)# es un grafico *vector*
+       width = 10) # es un grafico *vector*
 
 # ---------------------------------------- #
 # otro enfoque                             #
